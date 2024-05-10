@@ -1,0 +1,83 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Menu Bar Styles */
+.menu-bar {
+    background-color: #444;
+    padding: 10px;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #ddd;
+    padding: 20px;
+    width: 200px;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content-box {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
